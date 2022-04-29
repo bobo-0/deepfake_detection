@@ -5,7 +5,7 @@
 
 ## Main Idea
 This project is aiming to investigate the effect of image change on Deepfake detection problem. Deepfake detection performance is compared using original (color) image, images with color changes, and images with changes in saturation.
-You can read our proposal document in [here](documents/).
+You can read our proposal document in [here](documents/). You can find all the code we wrote in [here](/code).
 
 ## Project
 ### Data
@@ -13,5 +13,5 @@ We used [Deepfake Detection Challenge dataset](https://www.kaggle.com/competitio
 
 ### Data Preprocessing
 We did data preprocessing to make different type of video. 
-- [Original video to black and white video]
-- [Original video to high saturation video]
+- [Original video to black and white video](/code/MakeGrayVideo.ipynb)
+- [Original video to high saturation video](/code/MakeHSVVideo.ipynb)
