@@ -1,7 +1,7 @@
 # Deepfake Detection Project
 - This repository contains all codes for Deepfake Detection Project.
 - Team mates : Yebin Lee, Juhyeon Jung
-- We did our project on Google colab with GPU.
+- We did our project on Google colab with GPU. and Server with GPU
 
 ## Main Idea
 This project is aiming to investigate the effect of image change on Deepfake detection problem. Deepfake detection performance is compared using original (color) image, images with color changes, and images with changes in saturation.
