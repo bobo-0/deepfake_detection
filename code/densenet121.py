@@ -21,8 +21,14 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f'{device} is available.')
 
 # 경로 설정
-train_path = '../../../data/islabdata/train'
-test_path ='../../../data/islabdata/test'
+oi_train_path = '../../../data/islabdata/ori/train'
+oi_test_path ='../../../data/islabdata/ori/test'
+
+#hti_train_path = '../../../data/islabdata/hti/train'
+#hti_test_path ='../../../data/islabdata/hti/test'
+
+#rti_train_path = '../../../data/islabdata/rti/train'
+#rti_test_path ='../../../data/islabdata/rti/test'
 
 def get_files_count(folder_path):
         dirListing = os.listdir(folder_path)
@@ -40,10 +46,12 @@ transform = transforms.Compose([
     transforms.ToTensor(),
     transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])])
 
-trainset = datasets.ImageFolder(root=train_path, transform=transform)
+trainset = datasets.ImageFolder(root=oi_train_path, transform=transform)
+#trainset = datasets.ImageFolder(root=oi_train_path, transform=transform)+datasets.ImageFolder(root=rti_train_path, transform=transform)datasets.ImageFolder(root=hti_train_path, transform=transform)
 trainloader = DataLoader(trainset, batch_size=64, shuffle=True)
 
-testset = datasets.ImageFolder(root=test_path, transform=transform)
+testset = datasets.ImageFolder(root=oi_test_path, transform=transform)
+#testset = datasets.ImageFolder(root=oi_test_path, transform=transform)+datasets.ImageFolder(root=rti_test_path, transform=transform)+datasets.ImageFolder(root=hti_test_path, transform=transform)
 testloader = DataLoader(testset, batch_size=64, shuffle=False)
 
 #Densenet121 model
