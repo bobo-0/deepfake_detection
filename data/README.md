@@ -12,10 +12,13 @@ You can download all data from kaggle and preprocess with the code we attached. 
 
 ## Fake data
 - Original Image
+
 <img src="https://github.com/bobo-0/deepfake_detection/blob/main/data/fake_ori.jpg" width="400" height="300"/> <img src="https://github.com/bobo-0/deepfake_detection/blob/main/data/fake_ori_2.jpg" width="400" height="300"/>
 
 - RGB Transformed Image
+
 <img src="https://github.com/bobo-0/deepfake_detection/blob/main/data/fake_rti.jpg" width="400" height="300"/> <img src="https://github.com/bobo-0/deepfake_detection/blob/main/data/fake_rti_2.jpg" width="400" height="300"/> 
 
 - HSV Transformed Image
+
 <img src="https://github.com/bobo-0/deepfake_detection/blob/main/data/fake_hti.jpg" width="400" height="300"/> <img src="https://github.com/bobo-0/deepfake_detection/blob/main/data/fake_hti_2.jpg" width="400" height="300"/>
