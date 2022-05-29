@@ -21,14 +21,14 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f'{device} is available.')
 
 # 경로 설정
-oi_train_path = '../../../data/islabdata/ori/train'
-oi_test_path ='../../../data/islabdata/ori/test'
+oi_train_path = '../../../data/ori/train'
+oi_test_path ='../../../data/ori/test'
 
-#hti_train_path = '../../../data/islabdata/hti/train'
-#hti_test_path ='../../../data/islabdata/hti/test'
+#hti_train_path = '../../../data/hti/train'
+#hti_test_path ='../../../data/hti/test'
 
-#rti_train_path = '../../../data/islabdata/rti/train'
-#rti_test_path ='../../../data/islabdata/rti/test'
+#rti_train_path = '../../../data/rti/train'
+#rti_test_path ='../../../data/rti/test'
 
 def get_files_count(folder_path):
         dirListing = os.listdir(folder_path)
