@@ -18,8 +18,8 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f'{device} is available.')
 
 # 경로 설정
-train_path = '../../../data/islabdata/train'
-test_path ='../../../data/islabdata/test'
+train_path = '../../../data/train'
+test_path ='../../../data/test'
 
 def get_files_count(folder_path):
         dirListing = os.listdir(folder_path)
