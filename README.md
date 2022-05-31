@@ -48,4 +48,4 @@ Data combination:
 - Among the models trained with data combinations
     -  Performance increased because of data augmentation
     -  Data combinations with HTI data return HIGHEST performance  
-![Model Result](/documents/densnet121.png)
+![Model Result](/documents/densenet121.png)
