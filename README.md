@@ -40,4 +40,9 @@ Data combination:
 6. OI + RTI + HTI
 
 ### Result
-
+- Among the models trained with one data group
+    -  Highest performance is the model trained with HTI data
+    -  Test accuracy recuded with RTI data
+- Among the models trained with data combinations
+    -  Performance increased because of data augmentation
+    -  Data combinations with HTI data return HIGHEST performance  
