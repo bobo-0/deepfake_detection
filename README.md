@@ -18,6 +18,9 @@ We used [Deepfake Detection Challenge dataset](https://www.kaggle.com/competitio
 2. Split video to images.
     - [Split video as frame and save](/code/train_test_split.ipynb)
 
+#### Data Example
+You can find our data example [here](/data)
+
 ### Experiments
 We did two big experiments with above data. In order to run model in better envrionment, we use server computer.
 1. Find the best model with original image data
