@@ -39,6 +39,9 @@ Data combination:
 5. OI + HTI
 6. OI + RTI + HTI
 
+#### 3. Confusion Matrix
+You can find the confusion matrix of experiments [here](/code/model_result)
+
 ### Result
 - The best performance model with our data : DensNet121
 ![Best Model](/documents/find_best.png)
