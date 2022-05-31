@@ -5,7 +5,7 @@
 
 ## Main Idea
 This project is aiming to investigate the effect of image change on Deepfake detection problem. Deepfake detection performance is compared using original (color) image, images with color changes, and images with changes in saturation.
-You can find all the code we wrote in [here](/code). You can find example of data we used in [here](/data). There are some descriptions about our project below. You can read our [proposal report](/documents/DL_Project Proposal_Team1.pdf) and [final report](/documents/DL_Project_Final_Team1.pdf) to get more detail.. 
+You can find all the code we wrote in [here](/code). You can find example of data we used in [here](/data). There are some descriptions about our project below. You can read our [proposal report](/documents/DL_Project Proposal_Team1.pdf), [final report](/documents/Final_Report.pdf) and [final presentation](/documents/Final_PPT.pdf) to get more detail.. 
 
 ## Project
 ### Data
@@ -40,9 +40,12 @@ Data combination:
 6. OI + RTI + HTI
 
 ### Result
+- The best performance model with our data : DensNet121
+![Best Model](/documents/find_best.png)
 - Among the models trained with one data group
     -  Highest performance is the model trained with HTI data
     -  Test accuracy recuded with RTI data
 - Among the models trained with data combinations
     -  Performance increased because of data augmentation
     -  Data combinations with HTI data return HIGHEST performance  
+![Model Result](/documents/densnet121.png)
